@@ -7,7 +7,7 @@ header {
   padding-top: 1rem; /* Zabezpečte priestor od vrchu */
   padding-bottom: 1rem;
   background-color: rgb(251, 210, 156);
-  background-image: url(keyboard.jpg);
+  background-image: url(/Obrázky/keyboard.jpg);
   background-position: center; /* Zarovná pozadie na stred */
 }
 
@@ -211,7 +211,7 @@ ul li::before {
   content: ""; /* Pridanie pseudo-elementu pre obrázok */
   width: 1em; /* Nastavenie veľkosti obrázka (reaguje na veľkosť textu) */
   height: 1em;
-  background-image: url("nail.png"); /* Obrázok odrážky */
+  background-image: url("/Obrázky/nail.png"); /* Obrázok odrážky */
   background-size: contain; /* Zabezpečí správne škálovanie obrázka */
   background-repeat: no-repeat;
 }

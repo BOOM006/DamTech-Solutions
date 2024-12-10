@@ -38,7 +38,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--BGCOLOR);
-  background-image: url("bcg.png"),
+  background-image: url("/Obrázky/bcg.png"),
     linear-gradient(to left, var(--GRADIENT-COLOR), var(--BGCOLOR));
   background-repeat: repeat-y, no-repeat;
   background-position: left center;
@@ -209,7 +209,7 @@ ul li::before {
   content: ""; /* Pridanie pseudo-elementu pre obrázok */
   width: 1em; /* Nastavenie veľkosti obrázka (reaguje na veľkosť textu) */
   height: 1em;
-  background-image: url("nail.png"); /* Obrázok odrážky */
+  background-image: url("/Obrázky/nail.png"); /* Obrázok odrážky */
   background-size: contain; /* Zabezpečí správne škálovanie obrázka */
   background-repeat: no-repeat;
 }

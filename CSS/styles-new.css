@@ -13,7 +13,7 @@ header {
   padding: 1, 5rem;
   width: 100%;
   background-color: rgb(251, 210, 156);
-  background-image: url(/BOOM.html/keyboard.jpg);
+  background-image: url(/Obrázky/keyboard.jpg);
   background-size: cover;
   background-position: center; /* Zarovná pozadie na stred */
 }
@@ -132,8 +132,8 @@ ul {
   list-style-type: square;
   list-style-position: inside;
   line-height: 1, 6;
-  list-style-image: url("../BOOM.html/nail.png");
-  list-style: square url("../BOOM.html/nail.png") inside;
+  list-style-image: url("/Obrázky/nail.png");
+  list-style: square url("/Obrázky/nail.png") inside;
 }
 
 ul li:nth-child(odd) {
@@ -200,7 +200,7 @@ nav a {
 body {
   width: 100%;
   background-color: papayawhip;
-  background-image: url("../BOOM.html/bcg.png"),
+  background-image: url("/Obrázky/bcg.png"),
     linear-gradient(to left, steelblue, #fff);
   background-repeat: repeat-y, no-repeat;
   background-position: left center;
