@@ -7,7 +7,7 @@ header {
   padding-top: 1rem; /* Zabezpečte priestor od vrchu */
   padding-bottom: 1rem;
   background-color: rgb(251, 210, 156);
-  background-image: url(keyboard.jpg);
+  background-image: url(/Obrázky/keyboard.jpg);
   background-position: center; /* Zarovná pozadie na stred */
 }
 
