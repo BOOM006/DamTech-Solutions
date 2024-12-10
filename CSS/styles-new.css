@@ -1,0 +1,471 @@
+html {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 1, 5rem;
+  width: 100%;
+  background-color: rgb(251, 210, 156);
+  background-image: url(/BOOM.html/keyboard.jpg);
+  background-size: cover;
+  background-position: center; /* Zarovná pozadie na stred */
+}
+
+@media (prefers-color-scheme: dark) {
+:root{
+  --BGCOLOR: #000;
+}
+}
+
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 10px black;
+  border: 10px double red;
+  outline: 5px solid red;
+  border-radius: 2rem;
+  width: 50%;
+  font-size: 2rem;
+  padding: 1em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px; /* Pridá medzeru nad navigáciu */
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.off-screen {
+  position: absolute;
+  left: -100000px;
+}
+
+.hlavne {
+  /*Nadpis + logo*/
+  display: flex;
+  margin-left: 22rem;
+  gap: 1rem; /* Medzera medzi logom a textom */
+}
+
+.intro {
+  /*Container - header*/
+  border-bottom: 2px solid black;
+  display: flex; /* Usporiadanie vedľa seba */
+  align-items: center; /* Zarovnanie do stredu vertikálne */
+  padding: 1rem;
+}
+
+.logo {
+  width: 12%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  min-width: 50px;
+  border: double 2px black;
+  border-radius: 50%;
+}
+
+nav ul.nav {
+  display: flex; /* Zobrazenie odkazov vedľa seba */
+  list-style: none; /* Odstráni odrážky */
+  padding: 0; /* Odstráni predvolené medzery */
+  margin-top: 2rem;
+  margin-bottom: 0;
+  gap: 1rem; /* Pridá medzeru medzi odkazy */
+}
+
+img {
+  display: block;
+}
+
+main {
+  font-family: monospace;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover,
+a:focus {
+  color: dodgerblue;
+}
+
+a:active {
+  color: red;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p {
+  color: rgba(0, 0, 0, 0, 5);
+  width: 40ch;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.3;
+}
+
+.text {
+  text-indent: 2em;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  line-height: 1, 6;
+  list-style-image: url("../BOOM.html/nail.png");
+  list-style: square url("../BOOM.html/nail.png") inside;
+}
+
+ul li:nth-child(odd) {
+  color: red;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.sluzby {
+  margin: 0 auto;
+  width: 40ch;
+  margin-bottom: 5px;
+  color: brown;
+}
+
+.meme {
+  width: 30vw;
+  height: 30vw;
+  background-color: black;
+  color: aqua;
+  padding: 1rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  border: 2px double red;
+  outline: 1px solid red;
+  border-radius: 2rem;
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Zmení hodnotu podľa potreby */
+  margin-top: 20px;
+  font-size: 2rem;
+  background-color: lightcoral;
+}
+
+nav {
+  width: 100%; /* Nastavte šírku navigácie */
+  margin: 0 auto; /* Horizontálne centrovanie */
+}
+
+nav a {
+  margin-right: 1em; /* Pridá medzeru medzi odkazy */
+  text-align: center;
+  text-decoration: none; /* Odstráni podčiarknutie odkazu */
+  color: inherit; /* Zaručí, že odkazy zdedia farbu textu */
+  font-size: 20px;
+  padding: 6px;
+  background-color: rgb(244, 204, 152);
+  border-radius: 2rem;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+body {
+  width: 100%;
+  background-color: papayawhip;
+  background-image: url("../BOOM.html/bcg.png"),
+    linear-gradient(to left, steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: left center;
+  background-size: 15%, auto;
+  margin: 0;
+}
+
+.circle {
+  margin: 0 auto; /* Zarovná na stred */
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 50%; /* Nastaví okrúhly tvar */
+  outline: 2px solid red;
+  margin-top: 2rem;
+}
+
+.circle img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Obrázok orezaný do kruhu */
+}
+
+.person {
+  max-width: 200px;
+  font-size: 1.2rem;
+  margin-top: 10px; /* Pridá medzeru medzi fotkou a menom */
+}
+
+.person p {
+  padding-left: 20%;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.team-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Centrovanie obsahu */
+  gap: 2rem; /* Medzera medzi osobami */
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left; /* Zabezpečí, že text bude naľavo */
+}
+
+th {
+  text-align: center;
+  background-color: #f1a9a9;
+}
+
+.table-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+td:first-child {
+  text-align: center; /* Dní sú zľava */
+  background-color: hsla(0, 0%, 100%, 0.745);
+}
+
+td:last-child {
+  text-align: center; /* Časy sú sprava */
+}
+
+
+.feedback {
+  columns: 3 250px;
+  column-rule: 3px solid black;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 200px;
+  display: flex;
+  gap: 0, 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.im {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 10px;
+}
+
+.im img {
+  width: 100%; /* Prispôsobí obrázky veľkosti kontajnera */
+  height: 100%;
+  object-fit: cover; /* Zachová pomer strán */
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(1fr, 1fr)
+  ); /* Automatické prispôsobenie počtu stĺpcov */
+  gap: 1.5rem; /* Medzera medzi kartami */
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.service {
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: normal;
+  background-color: white;
+  border: #666 solid;
+  width: 40%;
+  margin: auto;
+}
+
+.service h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.service p {
+  color: #666;
+  margin-bottom: 1rem;
+  text-indent: 0em;
+  white-space: normal;
+  width: auto;
+}
+
+.price {
+  font-weight: bold;
+  color: #007b5e;
+  font-size: 1.2rem;
+}
+
+/* Štýly pre telefóny a malé tablety */
+@media (min-width: 100px) and (max-width: 768px) {
+  
+  h2 {
+    border: 2px double red;
+    outline: 1px solid red;
+    border-radius: 2rem;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Zmení hodnotu podľa potreby */
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: lightcoral;
+  }
+
+  h1 {
+    align-items: center;
+    width: 50%;
+    margin-bottom: 30px; /* Pridá medzeru nad navigáciu */
+    text-align: center;
+    margin: 0; /* Odstráni predvolené okraje */
+    color: white;
+    margin-left: 2rem;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .off-screen {
+    position: absolute;
+    left: -100000px;
+  }
+
+  .hlavne {
+    /*Nadpis + logo*/
+    display: flex;
+    gap: 1rem; /* Medzera medzi logom a textom */
+    justify-items: center;
+    margin-left: 2rem;
+  }
+
+  .intro {
+    /*Container - header*/
+    border-bottom: 2px solid black;
+    display: flex; /* Usporiadanie vedľa seba */
+    align-items: center; /* Zarovnanie do stredu vertikálne */
+  }
+
+  .logo {
+    width: 12%;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+    min-width: 50px;
+    border: double 2px black;
+    border-radius: 50%;
+  }
+
+  nav ul.nav {
+    display: flex; /* Zobrazenie odkazov vedľa seba */
+    align-items: center;
+    flex-direction: column;
+    list-style: none; /* Odstráni odrážky */
+    padding: 0; /* Odstráni predvolené medzery */
+    margin-top: 2rem;
+    margin-bottom: 0;
+    gap: 7px; /* Pridá medzeru medzi odkazy */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Zabezpečí, že text bude naľavo */
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .table-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  td:first-child {
+    text-align: center; /* Dní sú zľava */
+    background-color: hsla(0, 0%, 100%, 0.745);
+  }
+
+  td:last-child {
+    text-align: center; /* Časy sú sprava */
+  }
+
+}
+/* Štýly pre tablety */
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+/* Štýly pre notebooky */
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+/* Štýly pre veľké obrazovky */
+@media (min-width: 1201px) {
+}

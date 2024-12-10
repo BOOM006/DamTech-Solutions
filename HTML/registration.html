@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-top.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="reg">
+        <h2>Registrácia</h2>
+        <div class="kontakt">
+          <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="username">Prihlasovacie meno:</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Example"
+              minlength="6"
+              maxlength="10"
+              required
+            />
+            <br />
+  
+            <label for="password">Heslo:</label>
+            <input
+              type="text"
+              id="password"
+              placeholder="g7%2SD"
+              minlength="6"
+              maxlength="15"
+              required
+            />
+            <br />
+  
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="example@example.com"
+              required
+            />
+            <br />
+  
+            <label for="tnum">Telefón:</label>
+            <input
+              type="tel"
+              id="tnum"
+              placeholder="+421-123-456-789"
+              minlength="13"
+              maxlength="13"
+            />
+            <br />
+  
+            <label for="bday">Narodenie:</label>
+            <input type="date" id="bday" /> <br />
+  
+            <label for="oslovenie">Oslovenie:</label>
+  
+            <label for="pan">Pán</label>
+            <input type="radio" id="pán" value="pán" name="oslovenie" />
+            <label for="pani">Pani</label>
+            <input type="radio" id="pani" value="pán" name="oslovenie" /> <br />
+  
+            <label for="platba">Platba:</label>
+            <select id="platba">
+              <option value="visa">Visa</option>
+              <option value="mastercard">Mastercard</option>
+              <option value="gpay">GooglePay</option>
+            </select>
+            <br />
+  
+            <label for="newsletter">Newsletter</label>
+            <input type="checkbox" id="newsletter" /> <br />
+  
+            <label for="poznamka">Poznámka:</label>
+            <textarea name="poznamka" id="poznamka" rows="3" cols="25"></textarea>
+            <br />
+  
+            <label for="file">Profilová fotografia:</label>
+            <input type="file" id="file" accept="image/png" /> <br />
+  
+            <input type="submit" />
+            <input type="reset" />
+          </form>
+        </div>
+      </section>
+</body>
+</html>

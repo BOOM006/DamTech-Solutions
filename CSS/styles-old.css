@@ -1,0 +1,55 @@
+body {
+  background-color: burlywood;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: brown;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+dl {
+  background-color: antiquewhite;
+  text-align: center;
+  border: 2px solid;
+}
+
+
+span {
+  background-color: red;
+}
+span1 {
+  background-color: orange;
+}
+span2 {
+  background-color: pink;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials a {
+  margin: 0;
+}
+
+hr {
+  border: 1px dashed;
+  color: black;
+}
+
+
+
+.Kontakt{
+  text-align: center;
+}

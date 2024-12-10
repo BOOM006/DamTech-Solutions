@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles-old.css" />
+    <link rel="icon" href="BOOM.JPEG" />
+    <title>Damián Pitek</title>
+  </head>
+  <body>
+    <header style="background-color: mediumslateblue">
+      <h1>Firma - Damián Pitek</h1>
+      <nav>
+        <ul>
+          <a href="#me">O mne</a>
+          <a href="#socials">Sociálne siete</a>
+          <a href="#PC">Môj PC</a>
+          <a href="#reg">Registrácia</a>
+        </ul>
+      </nav>
+    </header>
+
+    <div style="margin: 10px">
+      <img src="ME.png" alt="Photo of me" width="50" class="me" /><br />
+      Damián<br />
+      Pitek<br />
+    </div>
+
+    <section class="me" id="me">
+      <h2>O mne</h2>
+      <dl>
+        <b>Pohlave:</b> Muž <br />
+        <b>Vek:</b> 18 <br />
+        <b>Výška:</b> 175 cm <br />
+        <b>Váha:</b> 60 kg <br />
+        <b>Jazyky:</b> Slovenčina, Angličtina, Ruština <br />
+        <b>Obľúbené hry:</b> <br />
+        <span>CS2</span> <br />
+        <span1>GTA V</span1> <br />
+        <span2>Fortnite</span2> <br />
+      </dl>
+    </section>
+    <hr />
+
+    <section class="socials" id="socials">
+      <h2>Sociálne siete</h2>
+      <a
+        href="https://www.instagram.com/damianpitek/"
+        target="_blank"
+        title="Instagram"
+      >
+        <img src="IG.png" alt="IG logo" title="IG" width="22" /></a
+      ><br />
+      <a href="https://discord.gg/VFvrQdY" target="_blank" title="Discord">
+        <img src="DS.png" alt="DS logo" title="DS" width="30" /> </a
+      ><br />
+      <a
+        href="https://m.youtube.com/channel/UCI_s8l4IKjFnXoCtZXeHQ4w/featured"
+        target="_blank"
+        title="YOUTUBE"
+        ><img src="YT.png" title="YT" alt="YT logo" width="26"
+      /></a>
+      <br />
+      <a
+        href="https://steamladder.com/profile/76561198957196155/"
+        target="_blank"
+        title="Steamladder"
+        ><img src="SL.png" alt="SL logo" title="SL" width="26"
+      /></a>
+    </section>
+    <hr />
+
+    <section class="PC" id="PC">
+      <h2>Môj PC</h2>
+      <p class="text1">
+        <b>CPU:</b> Intel Core i5-10300H <br />
+        <b>GPU:</b> NVIDIA GeForce GTX 1650 Ti<br />
+        <b>Monitor:</b> 1920 x 1080p - 144Hz <br />
+        <b>RAM:</b> 16GB - DDR4 <br />
+        <b>SSD:</b> 512 GB<br />
+      </p>
+    </section>
+    <hr />
+
+    <section class="Kontakt" id="reg">
+      <h2>Registrácia</h2>
+      <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="username">Prihlasovacie meno:</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Example"
+          minlength="6"
+          maxlength="10"
+          required
+        />
+        <br />
+
+        <label for="password">Heslo:</label>
+        <input
+          type="text"
+          id="password"
+          placeholder="g7%2SD"
+          minlength="6"
+          maxlength="15"
+          required
+        />
+        <br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@example.com"
+          required
+        />
+        <br />
+
+        <label for="tnum">Telefón:</label>
+        <input
+          type="tel"
+          id="tnum"
+          placeholder="+421-123-456-789"
+          minlength="13"
+          maxlength="13"
+        />
+        <br />
+
+        <label for="bday">Narodenie:</label>
+        <input type="date" id="bday" /> <br />
+
+        <label for="oslovenie">Oslovenie:</label>
+
+        <label for="pan">Pán</label>
+        <input type="radio" id="pán" value="pán" name="oslovenie" />
+        <label for="pani">Pani</label>
+        <input type="radio" id="pani" value="pán" name="oslovenie" /> <br />
+
+        <label for="platba">Platba:</label>
+        <select id="platba">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="gpay">GooglePay</option>
+        </select>
+        <br />
+
+        <label for="newsletter">Newsletter</label>
+        <input type="checkbox" id="newsletter" /> <br />
+
+        <label for="poznamka">Poznámka:</label>
+        <textarea name="poznamka" id="poznamka" rows="3" cols="25"></textarea>
+        <br />
+
+        <label for="file">Profilová fotografia:</label>
+        <input type="file" id="file" accept="image/png" /> <br />
+
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </section>
+
+<footer style="background-color: mediumslateblue;">
+Autor: Damián Pitek <br>
+&copy; All rights reserved <br>
+<a href="mailto:dam.pitek@gmail.com">Email me</a>
+
+</footer>
+
+  </body>
+</html>
